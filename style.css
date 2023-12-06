@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Color de fondo rosa claro */
+    color: #333; /* Color del texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: blueviolet;
+}
+
+header {
+    background-color: #e91e63; /* Color rosa de Barbie para el encabezado */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #fff; /* Color del texto en el encabezado */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: #ffcdd2; /* Color para el cartelito */
+    text-align: justify;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #e3618c; /* Color rosa de Barbie para el botón */
+    color: #fff; /* Color del texto en el botón */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c2185b; /* Color rosa más oscuro al pasar el ratón sobre el botón */
+}
+
+a {
+    color: #be3aae; /* Cambia el color del enlace a un tono de púrpura que combine */
+    font-weight: bold; /* Hace la letra más gruesa */
+}
+
+footer {
+    background-color: #e91e63; /* Color rosa de Barbie para el pie de página */
+    height: 50px;
+}
